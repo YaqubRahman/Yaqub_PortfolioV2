@@ -1,0 +1,288 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/* Hero Container */
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  min-height: 80vh;
+}
+
+/* Text Content Container */
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+/* Main Heading */
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(to right, #2563eb, #dd30f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.herowords-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(to right, #eb9c25, #f03030);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.biannual {
+  filter: drop-shadow(0 0 1em #4400ff9e);
+  width: 500px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+
+
+.profile-image {
+  width: 250px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #2563eb, #e600ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.content {
+  padding: 40px;
+  text-align: right;
+  margin-top: 100px;
+}
+
+
+.yaqub {
+  height:auto;
+  width:350px;
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 50%;
+  margin-bottom: 100px;
+  order: 2;
+  filter: drop-shadow(0 0 3em #4400fffa);
+}
+
+
+.yaqub.react:hover {
+  filter: drop-shadow(0 0 4em #4400fffa);
+}
+
+
+.phs {
+  height: 6em;
+  will-change: filter;
+  padding: 40px;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+.phs:hover {
+  filter: drop-shadow(0 0 2em #043507);
+}
+.phs.react:hover {
+  filter: drop-shadow(0 0 2em #043507);
+}
+
+.ccf {
+  height: 6em;
+  will-change: filter;
+  padding: 40px;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+.ccf:hover {
+  filter: drop-shadow(0 0 2em #7b2626);
+}
+.ccf.react:hover {
+  filter: drop-shadow(0 0 2em #7b2626);
+}
+
+.scouts {
+  height: 6em;
+  will-change: filter;
+  padding: 40px;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+.scouts:hover {
+  filter: drop-shadow(0 0 2em #663897);
+}
+.scouts.react:hover {
+  filter: drop-shadow(0 0 2em #663897);
+}
+
+.dst {
+  height: 6em;
+  will-change: filter;
+  padding: 40px;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+.dst:hover {
+  filter: drop-shadow(0 0 2em #110634);
+}
+.dst.react:hover {
+  filter: drop-shadow(0 0 2em #110634);
+}
+
+
+.encode {
+  height: 6em;
+  will-change: filter;
+  padding: 40px;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+.encode:hover {
+  filter: drop-shadow(0 0 2em #1930b7);
+}
+.encode.react:hover {
+  filter: drop-shadow(0 0 2em #1a58b4);
+}
+
+
+.aws {
+  height: 6em;
+  will-change: filter;
+  padding: 40px;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+.aws:hover {
+  filter: drop-shadow(0 0 2em #ffffff);
+}
+.aws.react:hover {
+  filter: drop-shadow(0 0 2em #ffffff);
+}
+
+
+
+.coinrule {
+  height: 6em;
+  will-change: filter;
+  padding: 40px;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+.coinrule:hover {
+  filter: drop-shadow(0 0 2em #eeff00aa);
+}
+.coinrule.react:hover {
+  filter: drop-shadow(0 0 2em #d3be03aa);
+}
+
+
+.stemmlogo {
+  height: 6em;
+  will-change: filter;
+  padding: 40px;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+.stemmlogo:hover {
+  filter: drop-shadow(0 0 2em #a6f7f0aa);
+}
+.stemmlogo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.scroll-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100px;
+}
+
+.scroll-content {
+  display: inline-block;
+  animation: moveLeft 10s linear infinite;
+}
+
+.scroll-content img {
+  display: inline-block;
+  width: 10px; /* Adjust the width as needed */
+  height: auto;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(600%);
+  }
+  100% {
+    transform: translateX(-600%);
+  }
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
