@@ -41,7 +41,7 @@
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.5rem;
-  background: linear-gradient(to right, #eb9c25, #f03030);
+  background: linear-gradient(to right, #ff0000, #fff200);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -55,7 +55,7 @@
 }
 
 .biannual {
-  filter: drop-shadow(0 0 1em #4400ff9e);
+  filter: drop-shadow(0 0 1em #4400fffa);
   width: 500px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
 }
@@ -65,6 +65,21 @@
   line-height: 1.7;
   color: #64748b;
   margin-bottom: 2rem;
+}
+
+
+.herotextcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+
+.herotextcontent {
+  padding: 40px;
+  text-align: right;
+  margin-top: 100px;
 }
 
 

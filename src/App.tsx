@@ -24,17 +24,20 @@ function App() {
         </div>
 
 
-        <div className="hero-image">
+        <div className='herowords-title herotextcontainer'>
+        <p><br></br>"Disciplined"<br></br><br></br>"Hardworking"<br></br><br></br>"Composed"<br></br><br></br>"Determined"</p>
+      
+
+        <div className="hero-image herotextcontent ">
         <img src={biannual} className="biannual" alt="biannual" />
+        </div>
         </div>
 
         <div className='hero-subtitle'>
         <p>With a strong foundation in computer science</p>
         </div>
 
-        <div className='herowords-title'>
-        <p><br></br>"Disciplined"<br></br><br></br>"Hardworking"<br></br><br></br>"Composed"<br></br><br></br>"Determined"</p>
-        </div>
+    
 
 
         <button onClick={() => setCount((count) => count + 1)}>
