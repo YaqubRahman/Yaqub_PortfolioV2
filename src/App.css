@@ -123,6 +123,37 @@
 }
 
 
+.city {
+  height: 6em;
+  will-change: filter;
+  padding: 40px;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+.city:hover {
+  filter: drop-shadow(0 0 2em #ff0000);
+}
+.city.react:hover {
+  filter: drop-shadow(0 0 2em #ff0000);
+}
+
+
+
+.tcs {
+  height: 6em;
+  will-change: filter;
+  padding: 40px;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+.tcs:hover {
+  filter: drop-shadow(0 0 2em #fa6635);
+}
+.tcs.react:hover {
+  filter: drop-shadow(0 0 2em #fa6635);
+}
+
+
 .phs {
   height: 6em;
   will-change: filter;
@@ -131,10 +162,10 @@
   border-radius: 50%;
 }
 .phs:hover {
-  filter: drop-shadow(0 0 2em #043507);
+  filter: drop-shadow(0 0 2em #0a6410);
 }
 .phs.react:hover {
-  filter: drop-shadow(0 0 2em #043507);
+  filter: drop-shadow(0 0 2em #0a6410);
 }
 
 .ccf {
@@ -145,10 +176,10 @@
   border-radius: 50%;
 }
 .ccf:hover {
-  filter: drop-shadow(0 0 2em #7b2626);
+  filter: drop-shadow(0 0 2em #ff0000);
 }
 .ccf.react:hover {
-  filter: drop-shadow(0 0 2em #7b2626);
+  filter: drop-shadow(0 0 2em #ff0000);
 }
 
 .scouts {
@@ -159,10 +190,10 @@
   border-radius: 50%;
 }
 .scouts:hover {
-  filter: drop-shadow(0 0 2em #663897);
+  filter: drop-shadow(0 0 2em #9248e0);
 }
 .scouts.react:hover {
-  filter: drop-shadow(0 0 2em #663897);
+  filter: drop-shadow(0 0 2em #9248e0);
 }
 
 .dst {
@@ -173,10 +204,10 @@
   border-radius: 50%;
 }
 .dst:hover {
-  filter: drop-shadow(0 0 2em #110634);
+  filter: drop-shadow(0 0 2em #2c1089);
 }
 .dst.react:hover {
-  filter: drop-shadow(0 0 2em #110634);
+  filter: drop-shadow(0 0 2em #2c1089);
 }
 
 
@@ -188,10 +219,10 @@
   border-radius: 50%;
 }
 .encode:hover {
-  filter: drop-shadow(0 0 2em #1930b7);
+  filter: drop-shadow(0 0 2em #2645f4);
 }
 .encode.react:hover {
-  filter: drop-shadow(0 0 2em #1a58b4);
+  filter: drop-shadow(0 0 2em #2645f4);
 }
 
 
@@ -239,22 +270,7 @@
 .stemmlogo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-.scroll-container {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 100px;
-}
 
-.scroll-content {
-  display: inline-block;
-  animation: moveLeft 10s linear infinite;
-}
-
-.scroll-content img {
-  display: inline-block;
-  width: 10px; /* Adjust the width as needed */
-  height: auto;
-}
 
 @keyframes moveLeft {
   0% {

@@ -5,6 +5,8 @@ import encodeLogo from '../assets/encode_club_logo.jpg'
 import scoutsLogo from '../assets/scouts.png' 
 import ccfLogo from '../assets/ccf.jpg' 
 import phsLogo from '../assets/PHS.jpg'
+import tcsLogo from '../assets/tcs.jpg'
+import cityLogo from '../assets/city.png'
 
 function Images(){
     return(
@@ -17,6 +19,8 @@ function Images(){
         <img src={scoutsLogo} className="scouts scroll-content scroll-container" alt="scouts logo" />
         <img src={ccfLogo} className="ccf scroll-content scroll-container" alt="ccf logo" />
         <img src={phsLogo} className="phs scroll-content scroll-container" alt="phs logo" />
+        <img src={tcsLogo} className="tcs scroll-content scroll-container" alt="tcs logo" />
+        <img src={cityLogo} className="city scroll-content scroll-container" alt="city logo" />
         
         </a>
 
