@@ -41,10 +41,12 @@
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.5rem;
-  background: linear-gradient(to right, #ff0000, #fff200);
+  background: linear-gradient(to right, #8525eb, #dd30f0);
+  filter: drop-shadow(0 0 2em #b300fffa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 
 .hero-image {
@@ -93,7 +95,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #2563eb, #e600ff);
+  background: linear-gradient(to right, #2563eb, #ff00c8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -129,8 +131,11 @@
   padding: 40px;
   transition: filter 300ms;
   border-radius: 50%;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
 }
 .city:hover {
+  transform: scale(1.5);
   filter: drop-shadow(0 0 2em #ff0000);
 }
 .city.react:hover {
@@ -145,8 +150,11 @@
   padding: 40px;
   transition: filter 300ms;
   border-radius: 50%;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
 }
 .tcs:hover {
+  transform: scale(1.5);
   filter: drop-shadow(0 0 2em #fa6635);
 }
 .tcs.react:hover {
@@ -160,8 +168,11 @@
   padding: 40px;
   transition: filter 300ms;
   border-radius: 50%;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
 }
 .phs:hover {
+  transform: scale(1.5);
   filter: drop-shadow(0 0 2em #0a6410);
 }
 .phs.react:hover {
@@ -174,8 +185,11 @@
   padding: 40px;
   transition: filter 300ms;
   border-radius: 50%;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
 }
 .ccf:hover {
+  transform: scale(1.5);
   filter: drop-shadow(0 0 2em #ff0000);
 }
 .ccf.react:hover {
@@ -188,8 +202,11 @@
   padding: 40px;
   transition: filter 300ms;
   border-radius: 50%;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
 }
 .scouts:hover {
+  transform: scale(1.5);
   filter: drop-shadow(0 0 2em #9248e0);
 }
 .scouts.react:hover {
@@ -202,8 +219,11 @@
   padding: 40px;
   transition: filter 300ms;
   border-radius: 50%;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
 }
 .dst:hover {
+  transform: scale(1.5);
   filter: drop-shadow(0 0 2em #2c1089);
 }
 .dst.react:hover {
@@ -217,8 +237,11 @@
   padding: 40px;
   transition: filter 300ms;
   border-radius: 50%;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
 }
 .encode:hover {
+  transform: scale(1.5);
   filter: drop-shadow(0 0 2em #2645f4);
 }
 .encode.react:hover {
@@ -232,8 +255,11 @@
   padding: 40px;
   transition: filter 300ms;
   border-radius: 50%;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
 }
 .aws:hover {
+  transform: scale(1.5);
   filter: drop-shadow(0 0 2em #ffffff);
 }
 .aws.react:hover {
@@ -248,8 +274,11 @@
   padding: 40px;
   transition: filter 300ms;
   border-radius: 50%;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
 }
 .coinrule:hover {
+  transform: scale(1.5);
   filter: drop-shadow(0 0 2em #eeff00aa);
 }
 .coinrule.react:hover {
@@ -263,10 +292,15 @@
   padding: 40px;
   transition: filter 300ms;
   border-radius: 50%;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
 }
+
 .stemmlogo:hover {
+  transform: scale(1.5);
   filter: drop-shadow(0 0 2em #a6f7f0aa);
 }
+
 .stemmlogo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
