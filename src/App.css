@@ -91,6 +91,19 @@
 }
 
 
+.containerNav {
+  width: 100vw;
+  min-width: 100vh;
+  background: #ced8ff;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  background: linear-gradient(to right, #b025eb, #0088ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 .container {
   display: flex;
   justify-content: center;
@@ -134,7 +147,7 @@
 
 
 .city {
-  height: 6em;
+  height: 11em;
   will-change: filter;
   padding: 40px;
   transition: filter 300ms;
@@ -153,7 +166,7 @@
 
 
 .tcs {
-  height: 6em;
+  height: 11em;
   will-change: filter;
   padding: 40px;
   transition: filter 300ms;
@@ -171,7 +184,7 @@
 
 
 .phs {
-  height: 6em;
+  height: 11em;
   will-change: filter;
   padding: 40px;
   transition: filter 300ms;
@@ -188,7 +201,7 @@
 }
 
 .ccf {
-  height: 6em;
+  height: 11em;
   will-change: filter;
   padding: 40px;
   transition: filter 300ms;
@@ -205,7 +218,7 @@
 }
 
 .scouts {
-  height: 6em;
+  height: 11em;
   will-change: filter;
   padding: 40px;
   transition: filter 300ms;
@@ -222,7 +235,7 @@
 }
 
 .dst {
-  height: 6em;
+  height: 11em;
   will-change: filter;
   padding: 40px;
   transition: filter 300ms;
@@ -240,7 +253,7 @@
 
 
 .encode {
-  height: 6em;
+  height: 11em;
   will-change: filter;
   padding: 40px;
   transition: filter 300ms;
@@ -258,7 +271,7 @@
 
 
 .aws {
-  height: 6em;
+  height: 11em;
   will-change: filter;
   padding: 40px;
   transition: filter 300ms;
@@ -277,7 +290,7 @@
 
 
 .coinrule {
-  height: 6em;
+  height: 11em;
   will-change: filter;
   padding: 40px;
   transition: filter 300ms;
@@ -295,7 +308,7 @@
 
 
 .stemmlogo {
-  height: 6em;
+  height: 11em;
   will-change: filter;
   padding: 40px;
   transition: filter 300ms;

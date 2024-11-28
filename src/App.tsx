@@ -1,14 +1,13 @@
 import { useState } from 'react'
-import { Layout } from 'antd'
 
 import Images from './components/Images'
 import yaqub from './assets/yaqubpfp.jpg'
 import biannual from './assets/biannual.jpeg'
 
+
 import './App.css'
+import Navbar from './components/Navbar'
 
-
-const { Header, Sider } = Layout;
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,9 +15,10 @@ function App() {
   return (
     <>
 
-    <Layout>
-      <Sider className='sidebar'>sidebar</Sider>
-      </Layout>
+    <div className='containerNav'>
+      <Navbar/>
+    </div>
+
     <div className="container">
       <h1>Yaqub Rahman</h1>
       <div className="content">
