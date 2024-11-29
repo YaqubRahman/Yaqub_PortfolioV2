@@ -44,19 +44,18 @@ function App() {
         </div>
 
         <div className='hero-subtitle'>
-        <p>With a strong foundation in computer science</p>
+        <p></p>
         </div>
 
-    
-
+        <p className="read-the-docs">
+        Click on the logos and images to learn more
+      </p>
 
         <button onClick={() => setCount((count) => count + 1)}>
           Scroll up
         </button>
       </div>
-      <p className="read-the-docs">
-        Click on the logos and images to learn more
-      </p>
+
     </>
   )
 }
