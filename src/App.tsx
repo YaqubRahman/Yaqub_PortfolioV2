@@ -37,7 +37,9 @@ function App() {
       
 
         <div className="hero-image herotextcontent ">
+        <a href="https://www.johnlyon.org/ccf-biennial-inspection/" target="_blank">
         <img src={biannual} className="biannual" alt="biannual" />
+        </a>
         </div>
         </div>
 
@@ -49,14 +51,11 @@ function App() {
 
 
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Scroll up
         </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
       </div>
       <p className="read-the-docs">
-        Click on the logos to learn more
+        Click on the logos and images to learn more
       </p>
     </>
   )

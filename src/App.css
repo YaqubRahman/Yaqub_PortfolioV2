@@ -60,7 +60,14 @@
   filter: drop-shadow(0 0 1em #4400fffa);
   width: 500px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
+  transition: filter 300ms, transform 0.5s; /* Combine transitions */
+  z-index: 102;
 }
+
+.biannual:hover {
+  transform: scale(1.06);
+}
+
 
 .hero-subtitle {
   font-size: 1.25rem;
@@ -98,7 +105,7 @@
   display: flex;
   justify-content: left;
   align-items: left;
-  background: linear-gradient(to right, #b025eb, #0088ff);
+  background: linear-gradient(to right, #b025eb, #00d5ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
