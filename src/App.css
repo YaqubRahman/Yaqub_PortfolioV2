@@ -152,6 +152,24 @@
 }
 
 
+.soukai {
+  height: 11em;
+  will-change: filter;
+  padding: 40px;
+  transition: filter 300ms;
+  border-radius: 50%;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
+}
+.soukai:hover {
+  transform: scale(1.5);
+  filter: drop-shadow(0 0 2em #ffffff);
+}
+.soukai.react:hover {
+  filter: drop-shadow(0 0 2em #ffffff);
+}
+
+
 
 .city {
   height: 11em;
@@ -288,10 +306,10 @@
 }
 .aws:hover {
   transform: scale(1.5);
-  filter: drop-shadow(0 0 2em #ffffff);
+  filter: drop-shadow(0 0 2em #ffa443);
 }
 .aws.react:hover {
-  filter: drop-shadow(0 0 2em #ffffff);
+  filter: drop-shadow(0 0 2em #ffa443);
 }
 
 
