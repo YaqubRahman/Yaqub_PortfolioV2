@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import Experience from './pages/Experience';
 import Home from './pages/Home';
 
-function App() {
+export default function App() {
   return (
     <Router>
       <div className='containerNav'>
@@ -13,10 +13,8 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home />}/> 
-        <Route path="/Experience" element={<Experience/>}/>
+        <Route path="/experience" element={<Experience/>}/>
       </Routes>
     </Router>
   )
 }
-
-export default App

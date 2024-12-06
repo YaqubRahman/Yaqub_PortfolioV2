@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Images from '../components/Images'
 import yaqub from '../assets/yaqubpfp.jpg'
 import biannual from '../assets/biannual.jpeg'
@@ -8,8 +7,6 @@ import '../App.css'
 
 
 function Home() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
     <div className="container">
@@ -43,10 +40,6 @@ function Home() {
         <p className="read-the-docs">
         Click on the logos and images to learn more
       </p>
-
-        <button onClick={() => setCount((count) => count + 1)}>
-          Scroll up
-        </button>
       </div>
 
     </>
