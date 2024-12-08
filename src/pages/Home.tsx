@@ -9,8 +9,10 @@ import '../App.css'
 function Home() {
   return (
     <>
-    <div className="container">
+    <div className="container ">
+    <div className='typewriter'>
       <h1>Yaqub Rahman</h1>
+      </div>
       <div className="content">
       <img src={yaqub} className="yaqub" alt="yaqub pfp" />
       </div>
