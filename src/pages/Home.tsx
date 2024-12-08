@@ -12,7 +12,7 @@ function Home() {
     <div className="container ">
     <div className='typewriter'>
       <h1>Yaqub Rahman</h1>
-      </div>
+    </div>
       <div className="content">
       <img src={yaqub} className="yaqub" alt="yaqub pfp" />
       </div>
