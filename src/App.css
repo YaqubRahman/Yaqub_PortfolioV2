@@ -123,7 +123,6 @@
   overflow: hidden;
   white-space: nowrap;
   animation: typing 0.8s steps(50000) forwards;
-  blink 1s step-end infinite;
 }
 
 @keyframes typing {

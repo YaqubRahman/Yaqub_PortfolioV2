@@ -1,4 +1,4 @@
-import Images from '../components/Images'
+import Images from '../components/ExperienceImages'
 import '../App.css'
 
 
