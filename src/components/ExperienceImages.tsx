@@ -3,6 +3,7 @@ import CCF from '../assets/experienceassets/CCFAward.jpg'
 import SoukAI from '../assets/experienceassets/SoukAI.jpg'
 import Imperial from '../assets/experienceassets/ImperialHackathon.jpg'
 import Headstudent from '../assets/experienceassets/headstudent.jpg'
+import Awsevent from '../assets/experienceassets/awsevent.jpg'
 import './Experience.css'
 
 
@@ -13,6 +14,9 @@ function ExperienceImages(){
         <div className='experiencehero-title'>
         <p>Imperial Hackathon Winner Summer '24</p>
         </div>
+        <div className="experiencehero-subtitle">
+            <p>June 2024</p>
+        </div>
         </div>
 
         <img src={Imperial} className="encodeexperience" alt="imperial" />
@@ -22,21 +26,56 @@ function ExperienceImages(){
         <div className='experiencehero-title'>
         <p>CCF Staff Sergeant</p>
         </div>
+        <div className="experiencehero-subtitle">
+            <p>2019-2024</p>
         </div>
+
+        </div>
+
 
         <img src={CCF} className="encodeexperience" alt="ccf" />
 
+        <div className="card">
+        <div className='experiencehero-title'>
+        <p>Encode Hackathon/Conference</p>
+        </div>
+        <div className="experiencehero-subtitle">
+            <p>Oct 2024</p>
+        </div>
+        </div>
+
+        <img src={Encode} className="encodeexperience" alt="encodeexperience" />
+
+
+        <div className="card">
+        <div className='experiencehero-title'>
+        <p>Souk Ai Startup Intern</p>
+        </div>
+        <div className="experiencehero-subtitle">
+            <p>Oct 2024-Present</p>
+        </div>
+        </div>
+            <img src={SoukAI} className="encodeexperience" alt="soukai" />
 
 
         <div className="card">
         <div className='experiencehero-title'>
         <p>Amazon Immersion Day</p>
         </div>
+        <div className="experiencehero-subtitle">
+            <p>Oct 2024</p>
         </div>
+        </div>
+
+
+        <img src={Awsevent} className="encodeexperience" alt="awsevent" />
         
         <div className="card">
         <div className='experiencehero-title'>
         <p>Pinner High School Head Boy</p>
+        </div>
+        <div className="experiencehero-subtitle">
+            <p>2023-2024</p>
         </div>
         </div>
 
@@ -46,6 +85,9 @@ function ExperienceImages(){
         <div className='experiencehero-title '>
         <p>Scouts Leader</p>
         </div>
+        <div className="experiencehero-subtitle">
+            <p>2022-Present</p>
+        </div>
         </div>
 
         
@@ -53,17 +95,20 @@ function ExperienceImages(){
         <div className='experiencehero-title'>
         <p>TCS Cybersecurity</p>
         </div>
+        <div className="experiencehero-subtitle">
+            <p>June 2023</p>
+        </div>
         </div>
         
         
         <div className="card">
         <div className='experiencehero-title'>
-        <p>DSTL Work Experiencessssssss</p>
+        <p>DSTL Work Experience</p>
+        </div>
+        <div className="experiencehero-subtitle">
+            <p>Feb 2021</p>
         </div>
         </div>
-
-            <img src={Encode} className="encodeexperience" alt="encodeexperience" />
-            <img src={SoukAI} className="encodeexperience" alt="soukai" />
 
 
         </div>
