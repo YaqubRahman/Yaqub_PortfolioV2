@@ -14,7 +14,9 @@ const Navbar = () => {
                     <Link to="/Experience">Experience</Link>
                 </li>
                 <li>Projects</li>
-                <li>Contact</li>
+                <li>
+                    <Link to="/Contact">Contact</Link>
+                </li>
             </ul>
             <div className='search-box'>
                 <input type="text" placeholder='Search'/>

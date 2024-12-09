@@ -47,6 +47,20 @@
 }
 
 
+.contacts-title {
+  font-size: 1.0rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  float: left;
+  text-align: left;
+  background: linear-gradient(to right, #8525eb, #dd30f0);
+  filter: drop-shadow(0 0 2em #b300fffa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 
 .hero-image {
   flex: 1;

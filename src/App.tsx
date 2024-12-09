@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Experience from './pages/Experience';
 import Home from './pages/Home';
+import Contact from './pages/Contact'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />}/> 
         <Route path="/experience" element={<Experience/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
     </Router>
   )
