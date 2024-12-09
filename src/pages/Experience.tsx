@@ -7,7 +7,7 @@ function Experience() {
   return (
     <>
     <div className="container">
-      <h1>Experience </h1>
+      <h1><br></br>Experience<br></br><br></br> </h1>
       </div>
       <Images/>
         <div className='hero-subtitle'>
