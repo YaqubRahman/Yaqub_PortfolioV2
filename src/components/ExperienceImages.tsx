@@ -4,6 +4,7 @@ import SoukAI from '../assets/experienceassets/SoukAI.jpg'
 import Imperial from '../assets/experienceassets/ImperialHackathon.jpg'
 import Headstudent from '../assets/experienceassets/headstudent.jpg'
 import Awsevent from '../assets/experienceassets/awsevent.jpg'
+import Robotics from '../assets/experienceassets/Robotics.jpg'
 import './Experience.css'
 
 
@@ -34,6 +35,26 @@ function ExperienceImages(){
 
 
         <img src={CCF} className="encodeexperience" alt="ccf" />
+
+
+
+        <div className="card">
+        <div className='experiencehero-title'>
+        <p>2nd Place Robotics End Of Line Competition</p>
+        </div>
+        <div className="experiencehero-subtitle">
+            <p>Sep - Dec 2024</p>
+        </div>
+
+        </div>
+
+
+        <img src={Robotics} className="encodeexperience" alt="robotics" />
+
+
+
+
+
 
         <div className="card">
         <div className='experiencehero-title'>
