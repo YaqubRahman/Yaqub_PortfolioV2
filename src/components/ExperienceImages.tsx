@@ -70,7 +70,7 @@ function ExperienceImages(){
 
         <div className="card">
         <div className='experiencehero-title'>
-        <p>Souk Ai Startup Intern</p>
+        <p>Souk AI Startup Intern</p>
         </div>
         <div className="experiencehero-subtitle">
             <p>Oct 2024-Present</p>
@@ -81,7 +81,7 @@ function ExperienceImages(){
 
         <div className="card">
         <div className='experiencehero-title'>
-        <p>Amazon Immersion Day</p>
+        <p>AWS Immersion Day</p>
         </div>
         <div className="experiencehero-subtitle">
             <p>Oct 2024</p>
@@ -114,7 +114,7 @@ function ExperienceImages(){
         
         <div className="card">
         <div className='experiencehero-title'>
-        <p>TCS Cybersecurity</p>
+        <p>TCS Cybersecurity Work Experience</p>
         </div>
         <div className="experiencehero-subtitle">
             <p>June 2023</p>
