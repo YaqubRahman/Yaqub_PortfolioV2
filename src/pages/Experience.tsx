@@ -1,5 +1,6 @@
 import Images from '../components/ExperienceImages'
 import '../App.css'
+import '../components/Projects.css'
 
 
 function Experience() {
