@@ -2,6 +2,7 @@ import Images from '../components/Images'
 import yaqub from '../assets/yaqubpfp.jpg'
 import biannual from '../assets/biannual.jpeg'
 import '../App.css'
+import soukaiLogo from '../assets/soukAI pfp2.png'
 
 
 
@@ -12,6 +13,15 @@ function Home() {
     <div className="container ">
     <div className='typewriter'>
       <h1>Yaqub Rahman</h1>
+    <div className="sub-title">
+      <h2>Software Engineer at SoukAI</h2>
+    </div>
+
+    <a href="https://www.linkedin.com/company/souk-ai/" target="_blank">
+        <img src={soukaiLogo} className="soukai scroll-content scroll-container" alt="soukai logo" />
+        </a>
+
+
     </div>
       <div className="content">
       <img src={yaqub} className="yaqub" alt="yaqub pfp" />

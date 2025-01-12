@@ -6,7 +6,18 @@
     background-color: #1b1b1b;  
     margin: 15px;         
     width: 500px;        
+    transition: filter 300ms, transform 0.5s; /* Combine transitions */
+    z-index: 102;
+    
 }
+
+.box:hover {
+    transform: scale(1.06);
+    filter: drop-shadow(0 0 1em #4400fffa);
+    filter: brightness(0.1);
+}
+
+
 
 
 .title {
@@ -16,6 +27,26 @@
     padding: 10px;
 }
 
+
+
+.pythonlogo {
+    position: absolute; /* Position the Python logo over the image */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%; /* Adjust size as needed */
+    height: auto;
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.5s; /* Smooth transition */
+}
+
+
+.box:hover .pythonlogo {
+    opacity: 1;
+    filter: brightness(1);
+
+}
+    
 
 .image {
     width: 100%;             

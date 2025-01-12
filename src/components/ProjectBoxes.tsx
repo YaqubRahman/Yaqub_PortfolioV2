@@ -3,6 +3,8 @@ import KNearest from '../assets/projectassets/K-Nearest.png'
 import Fractal from '../assets/projectassets/FractalPlotting.png'
 import DecisionTree from '../assets/projectassets/DecisionTree.png'
 import ShoppingList from '../assets/projectassets/ShoppingList.png'
+import WeatherApp from '../assets/projectassets/WeatherApp.png'
+import PythonLogo from '../assets/projectassets/pythonlogo.png'
 
 function ProjectBoxes(){
     return(
@@ -10,6 +12,7 @@ function ProjectBoxes(){
             <div className="boxflex">
                 <div className="box">
                     <h1 className='title'>YR13 NEA Game</h1>
+                    <img src={PythonLogo} className="pythonlogo" alt="pythonlogo" />
                     <img src={PlaneMainMenu} className="image" alt="plainmainmenu" />
                 </div>
                 
@@ -31,6 +34,15 @@ function ProjectBoxes(){
                 <div className="box">
                     <h1 className='title'>Shopping List App</h1>
                     <img src={ShoppingList} className="image" alt="shoppinglist" />
+                </div>
+
+                <div className="box">
+                    <h1 className='title'>Weather Web App</h1>
+                    <img src={WeatherApp} className="image" alt="weatherapp" />
+                </div>
+
+                <div className="box">
+                    <h1 className='title'>This website :)</h1>
                 </div>
 
             </div>

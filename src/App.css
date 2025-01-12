@@ -35,6 +35,11 @@
 }
 
 
+.sub-title{
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
 .herowords-title {
   font-size: 3.5rem;
   font-weight: 700;
@@ -187,20 +192,20 @@
 
 
 .soukai {
-  height: 11em;
+  height: 7em;
   will-change: filter;
-  padding: 40px;
+  padding: 9px;
   transition: filter 300ms;
   border-radius: 50%;
   transition: transform 0.5s, filter 0.5s;
   z-index: 102;
 }
 .soukai:hover {
-  transform: scale(1.5);
-  filter: drop-shadow(0 0 2em #ffffff);
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 0.4em #ffffff);
 }
 .soukai.react:hover {
-  filter: drop-shadow(0 0 2em #ffffff);
+  filter: drop-shadow(0 0 0.4em #ffffff);
 }
 
 

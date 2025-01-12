@@ -7,7 +7,6 @@ import ccfLogo from '../assets/ccf.jpg'
 import phsLogo from '../assets/PHS.jpg'
 import tcsLogo from '../assets/tcs.jpg'
 import cityLogo from '../assets/city.png'
-import soukaiLogo from '../assets/soukAI pfp2.png'
 import coinruleLogo from '../assets/coinrule.png'
 
 function Images(){
@@ -40,9 +39,7 @@ function Images(){
         <a href="https://www.city.ac.uk/" target="_blank">
         <img src={cityLogo} className="city scroll-content scroll-container" alt="city logo" />
         </a>
-        <a href="https://www.linkedin.com/company/souk-ai/" target="_blank">
-        <img src={soukaiLogo} className="soukai scroll-content scroll-container" alt="soukai logo" />
-        </a>
+
         <a href="https://coinrule.com/" target="_blank">
         <img src={coinruleLogo} className="coinrule scroll-content scroll-container" alt="coinrule logo" />
         </a>
