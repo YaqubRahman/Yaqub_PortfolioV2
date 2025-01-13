@@ -70,7 +70,7 @@ function ExperienceImages(){
 
         <div className="card">
         <div className='experiencehero-title'>
-        <p>Souk AI Startup Intern</p>
+        <p>Souk AI Startup Software Engineer</p>
         </div>
         <div className="experiencehero-subtitle">
             <p>Oct 2024-Present</p>
