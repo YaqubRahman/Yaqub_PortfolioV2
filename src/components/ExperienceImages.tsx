@@ -5,12 +5,33 @@ import Imperial from '../assets/experienceassets/ImperialHackathon.jpg'
 import Headstudent from '../assets/experienceassets/headstudent.jpg'
 import Awsevent from '../assets/experienceassets/awsevent.jpg'
 import Robotics from '../assets/experienceassets/Robotics.jpg'
+import KCL from '../assets/experienceassets/KCLHackathon.jpg'
 import './Experience.css'
 
 
 function ExperienceImages(){
     return(
         <div>
+
+        <div className="card">
+        <div className='experiencehero-title'>
+        <p>2nd Place KCL Enactus Hackathon</p>
+        </div>
+        <div className="experiencehero-subtitle">
+            <p>Feb 2025</p>
+        </div>
+
+        </div>
+
+
+        <img src={KCL} className="encodeexperience" alt="kcl" />
+
+
+
+
+
+
+
         <div className="card">
         <div className='experiencehero-title'>
         <p>Imperial Hackathon Winner Summer '24</p>
@@ -35,7 +56,6 @@ function ExperienceImages(){
 
 
         <img src={CCF} className="encodeexperience" alt="ccf" />
-
 
 
         <div className="card">
