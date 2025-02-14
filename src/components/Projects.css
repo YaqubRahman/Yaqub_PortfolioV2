@@ -1,20 +1,19 @@
 .box {
+    position: relative;
     border-radius: 10px;     
     padding: 20px;           
     width: 300px;            
     text-align: center;    
     background-color: #1b1b1b;  
     margin: 15px;         
-    width: 500px;        
+    width: 300px;        
     transition: filter 300ms, transform 0.5s; /* Combine transitions */
-    z-index: 102;
-    
 }
 
-.box:hover {
+.box:hover .image{
     transform: scale(1.06);
     filter: drop-shadow(0 0 1em #4400fffa);
-    filter: brightness(0.1);
+    filter: brightness(0);
 }
 
 
@@ -34,16 +33,18 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 30%; /* Adjust size as needed */
+    width: 20%; /* Adjust size as needed */
     height: auto;
     opacity: 0; /* Initially invisible */
     transition: opacity 0.5s; /* Smooth transition */
+    z-index: 2;
 }
 
 
 .box:hover .pythonlogo {
     opacity: 1;
     filter: brightness(1);
+    z-index: 1
 
 }
     

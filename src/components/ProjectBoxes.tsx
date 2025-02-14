@@ -5,10 +5,16 @@ import DecisionTree from '../assets/projectassets/DecisionTree.png'
 import ShoppingList from '../assets/projectassets/ShoppingList.png'
 import WeatherApp from '../assets/projectassets/WeatherApp.png'
 import PythonLogo from '../assets/projectassets/pythonlogo.png'
+import JavaScriptLogo from '../assets/projectassets/javascriptlogo.png'
+import ReactLogo from '../assets/projectassets/reactlogo.png'
+import SwiftdIn from '../assets/projectassets/SwiftdIn.png'
 
 function ProjectBoxes(){
     return(
         <div>
+              <p className="read-the-docs">
+        Still work in progress!
+      </p>
             <div className="boxflex">
                 <div className="box">
                     <h1 className='title'>YR13 NEA Game</h1>
@@ -24,6 +30,12 @@ function ProjectBoxes(){
                 <div className="box">
                     <h1 className='title'>Fractal Plotting</h1>
                     <img src={Fractal} className="image" alt="fractal" />
+                </div>
+
+                <div className="box">
+                    <h1 className='title'>SwiftdIn Full Stack App</h1>
+                    <img src={JavaScriptLogo} className="pythonlogo" alt="javascriptlogo" />
+                    <img src={SwiftdIn} className="image" alt="plainmainmenu" />
                 </div>
 
                 <div className="box">
