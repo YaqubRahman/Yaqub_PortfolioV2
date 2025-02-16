@@ -5,6 +5,7 @@ import DecisionTree from '../assets/projectassets/DecisionTree.png'
 import ShoppingList from '../assets/projectassets/ShoppingList.png'
 import WeatherApp from '../assets/projectassets/WeatherApp.png'
 import SwiftdIn from '../assets/projectassets/SwiftdIn.png'
+import PrayerApp from '../assets/projectassets/PrayerApp.png'
 
 function ProjectBoxes(){
     return(
@@ -21,7 +22,6 @@ function ProjectBoxes(){
                          methodology and uses the<br></br>
                           principles of SUVAT from physics.</p>
                     </div>
-
                     <img src={PlaneMainMenu} className="image" alt="plainmainmenu" />
                 </div>
                 
@@ -49,6 +49,15 @@ function ProjectBoxes(){
                 <div className="box">
                     <h1 className='title'>Decision Tree ML</h1>
                     <img src={DecisionTree} className="image" alt="decisiontree" />
+                </div>
+
+                <div className="box">
+                    <h1 className='title'>Prayer App</h1>
+                    <div className="pythonlogo">
+                        <p>A Kotlin App, collaborated with a<br></br> 
+                         team, using API's to fetch prayer times.</p>
+                    </div>
+                    <img src={PrayerApp} className="image" alt="prayerapp" />
                 </div>
 
                 <div className="box">
