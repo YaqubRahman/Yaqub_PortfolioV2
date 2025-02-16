@@ -6,6 +6,7 @@ import ShoppingList from '../assets/projectassets/ShoppingList.png'
 import WeatherApp from '../assets/projectassets/WeatherApp.png'
 import SwiftdIn from '../assets/projectassets/SwiftdIn.png'
 import PrayerApp from '../assets/projectassets/PrayerApp.png'
+import Portfolio from '../assets/projectassets/PortfolioProjectImage.png'
 
 function ProjectBoxes(){
     return(
@@ -72,6 +73,7 @@ function ProjectBoxes(){
 
                 <div className="box">
                     <h1 className='title'>This website :)</h1>
+                    <img src={Portfolio} className="image" alt="portfolioimage" />
                 </div>
 
             </div>
