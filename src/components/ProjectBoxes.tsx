@@ -4,7 +4,6 @@ import Fractal from '../assets/projectassets/FractalPlotting.png'
 import DecisionTree from '../assets/projectassets/DecisionTree.png'
 import ShoppingList from '../assets/projectassets/ShoppingList.png'
 import WeatherApp from '../assets/projectassets/WeatherApp.png'
-import PythonLogo from '../assets/projectassets/pythonlogo.png'
 import SwiftdIn from '../assets/projectassets/SwiftdIn.png'
 
 function ProjectBoxes(){
