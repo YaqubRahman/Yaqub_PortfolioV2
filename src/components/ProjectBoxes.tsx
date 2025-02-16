@@ -5,8 +5,6 @@ import DecisionTree from '../assets/projectassets/DecisionTree.png'
 import ShoppingList from '../assets/projectassets/ShoppingList.png'
 import WeatherApp from '../assets/projectassets/WeatherApp.png'
 import PythonLogo from '../assets/projectassets/pythonlogo.png'
-import JavaScriptLogo from '../assets/projectassets/javascriptlogo.png'
-import ReactLogo from '../assets/projectassets/reactlogo.png'
 import SwiftdIn from '../assets/projectassets/SwiftdIn.png'
 
 function ProjectBoxes(){
@@ -18,7 +16,13 @@ function ProjectBoxes(){
             <div className="boxflex">
                 <div className="box">
                     <h1 className='title'>YR13 NEA Game</h1>
-                    <img src={PythonLogo} className="pythonlogo" alt="pythonlogo" />
+                    <div className="pythonlogo">
+                        <p>A python game which uses<br></br>
+                         pygame. Developed using an agile<br></br>
+                         methodology and uses the<br></br>
+                          principles of SUVAT from physics.</p>
+                    </div>
+
                     <img src={PlaneMainMenu} className="image" alt="plainmainmenu" />
                 </div>
                 
@@ -34,7 +38,12 @@ function ProjectBoxes(){
 
                 <div className="box">
                     <h1 className='title'>SwiftdIn Full Stack App</h1>
-                    <img src={JavaScriptLogo} className="pythonlogo" alt="javascriptlogo" />
+                    <div className="pythonlogo">
+                        <p>A full stack web application which uses React, JavaScript and MongoDB. SwiftdIn
+                          is a LinedIn<br></br>
+                           like clone.</p>
+
+                    </div>
                     <img src={SwiftdIn} className="image" alt="plainmainmenu" />
                 </div>
 

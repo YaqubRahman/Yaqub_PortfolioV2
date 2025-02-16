@@ -29,14 +29,10 @@
 
 
 .pythonlogo {
-    position: absolute; /* Position the Python logo over the image */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 20%; /* Adjust size as needed */
-    height: auto;
+    position:absolute; /* Position the Python logo over the image */
+    padding: 10px;
     opacity: 0; /* Initially invisible */
-    transition: opacity 0.5s; /* Smooth transition */
+    transition: opacity 0.1s; /* Smooth transition */
     z-index: 2;
 }
 
