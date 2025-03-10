@@ -6,6 +6,7 @@ import Headstudent from '../assets/experienceassets/headstudent.jpg'
 import Awsevent from '../assets/experienceassets/awsevent.jpg'
 import Robotics from '../assets/experienceassets/Robotics.jpg'
 import KCL from '../assets/experienceassets/KCLHackathon.jpg'
+import Buildathon from '../assets/experienceassets/Buildathon.jpg'
 import './Experience.css'
 
 
@@ -13,14 +14,27 @@ function ExperienceImages(){
     return(
         <div>
 
+
         <div className="card">
         <div className='experiencehero-title'>
-        <p>2nd Place KCL Enactus Hackathon</p>
+        <p><span className="bronze-text">3rd Place</span> Cambridge Joint ISoc Buildathon</p>
         </div>
         <div className="experiencehero-subtitle">
             <p>Feb 2025</p>
         </div>
 
+        </div>
+
+
+        <img src={Buildathon} className="encodeexperience" alt="buildathon" />
+
+        <div className="card">
+            <div className='experiencehero-title'>
+                <p><span className="silver-text">2nd Place</span> KCL Enactus Hackathon</p>
+                </div>
+                <div className="experiencehero-subtitle">
+                    <p>Feb 2025</p>
+                    </div>
         </div>
 
 
@@ -34,7 +48,7 @@ function ExperienceImages(){
 
         <div className="card">
         <div className='experiencehero-title'>
-        <p>Imperial Hackathon Winner Summer '24</p>
+        <p><span className="gold-text">1st Place</span> Imperial Hackathon Winner Summer '24</p>
         </div>
         <div className="experiencehero-subtitle">
             <p>June 2024</p>
@@ -60,7 +74,7 @@ function ExperienceImages(){
 
         <div className="card">
         <div className='experiencehero-title'>
-        <p>2nd Place Robotics End Of Line Competition</p>
+        <p><span className="silver-text">2nd Place</span> Robotics End Of Line Competition</p>
         </div>
         <div className="experiencehero-subtitle">
             <p>Sep - Dec 2024</p>

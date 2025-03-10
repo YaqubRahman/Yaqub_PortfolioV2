@@ -6,6 +6,33 @@
     z-index: 102;
 }
 
+.silver-text {
+  color: #C0C0C0; /* Silver color */
+  background: none; /* Ensure it doesn't inherit the gradient */
+  -webkit-background-clip: unset; /* Unset the background-clip property */
+  -webkit-text-fill-color: #C0C0C0; 
+  filter: drop-shadow(0 0 1.25rem #C0C0C0);
+}
+
+.bronze-text {
+  color: #cd7f32; 
+  background: none; /* Ensure it doesn't inherit the gradient */
+  -webkit-background-clip: unset; /* Unset the background-clip property */
+  -webkit-text-fill-color: #cd7f32; 
+  filter: drop-shadow(0 0 1.25rem #cd7f32);
+}
+
+.gold-text {
+  color: #FFD700;
+  background: none; /* Ensure it doesn't inherit the gradient */
+  -webkit-background-clip: unset; /* Unset the background-clip property */
+  -webkit-text-fill-color: #FFD700; 
+  filter: drop-shadow(0 0 1.25rem #FFD700);
+  
+}
+
+
+
 .experiencetext{
 
 }
