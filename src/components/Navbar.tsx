@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import search_icon_light from "../assets/search-w.png";
 
 const Navbar = () => {
   return (

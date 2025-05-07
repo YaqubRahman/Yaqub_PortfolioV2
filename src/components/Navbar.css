@@ -17,21 +17,3 @@
 .navbar ul li {
   margin: 0 75px;
 }
-.search-box {
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-  border-radius: 50px;
-}
-
-.search-box input {
-  padding: 5px;
-  margin-right: 25px;
-  border: none;
-  border-radius: 20px;
-  outline: none;
-  height: 40px;
-  width: 200px;
-  background: linear-gradient(to right, #6a06d6, #b330f0);
-  filter: drop-shadow(0 0 1em #aa00fffa);
-}
