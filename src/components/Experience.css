@@ -1,77 +1,73 @@
-.experienceimages{
-    filter: drop-shadow(0 0 1em #4400fffa);
-    width: 5px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    transition: filter 300ms, transform 0.5s; /* Combine transitions */
-    z-index: 102;
+.experienceimages {
+  filter: drop-shadow(0 0 1em #4400fffa);
+  width: 5px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  transition: filter 300ms, transform 0.5s; /* Combine transitions */
+  z-index: 102;
 }
 
 .silver-text {
-  color: #C0C0C0; /* Silver color */
+  color: #c0c0c0; /* Silver color */
   background: none; /* Ensure it doesn't inherit the gradient */
   -webkit-background-clip: unset; /* Unset the background-clip property */
-  -webkit-text-fill-color: #C0C0C0; 
-  filter: drop-shadow(0 0 1.25rem #C0C0C0);
+  -webkit-text-fill-color: #c0c0c0;
+  filter: drop-shadow(0 0 1.25rem #c0c0c0);
 }
 
 .bronze-text {
-  color: #cd7f32; 
+  color: #cd7f32;
   background: none; /* Ensure it doesn't inherit the gradient */
   -webkit-background-clip: unset; /* Unset the background-clip property */
-  -webkit-text-fill-color: #cd7f32; 
+  -webkit-text-fill-color: #cd7f32;
   filter: drop-shadow(0 0 1.25rem #cd7f32);
 }
 
 .gold-text {
-  color: #FFD700;
+  color: #ffd700;
   background: none; /* Ensure it doesn't inherit the gradient */
   -webkit-background-clip: unset; /* Unset the background-clip property */
-  -webkit-text-fill-color: #FFD700; 
-  filter: drop-shadow(0 0 1.25rem #FFD700);
-  
+  -webkit-text-fill-color: #ffd700;
+  filter: drop-shadow(0 0 1.25rem #ffd700);
 }
 
-
-
-.experiencetext{
-
+.experiencetext {
 }
 
 .encodeexperience {
-    height: 20em;
-    will-change: filter;
-    padding: 40px;
-    border-radius: 20%;
-    transition: filter 300ms;
-    transition: transform 0.5s, filter 0.5s;
-    z-index: 102;
-    display: flex;
-    align-items: center;
-    filter: drop-shadow(0 0 2em #7700ff);
-  }
+  height: 20em;
+  will-change: filter;
+  padding: 40px;
+  border-radius: 20%;
+  transition: filter 300ms;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
+  display: flex;
+  align-items: center;
+  filter: drop-shadow(0 0 2em #7700ff);
+}
 
 .encodeexperience:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(0 0 2em #7700ff);
-  }
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 2em #7700ff);
+}
 .encodeexperience.react:hover {
-    filter: drop-shadow(0 0 2em #7700ff);
-  }
+  filter: drop-shadow(0 0 2em #7700ff);
+}
 .experiencehero-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background: linear-gradient(to right, #2563eb, #dd30f0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: linear-gradient(to right, #2563eb, #dd30f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .experiencehero-subtitle {
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.5rem;
@@ -81,5 +77,4 @@
   background: linear-gradient(to right, #d425eb, #3330f0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
 }
