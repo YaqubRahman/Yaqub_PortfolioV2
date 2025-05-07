@@ -1,60 +1,54 @@
 .box {
-    position: relative;
-    border-radius: 10px;     
-    padding: 20px;           
-    width: 300px;            
-    text-align: center;    
-    background-color: #1b1b1b;  
-    margin: 15px;         
-    width: 300px;        
-    transition: filter 300ms, transform 0.5s; /* Combine transitions */
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  background-color: #1b1b1b;
+  margin: 15px;
+  width: 300px;
+  transition: filter 300ms, transform 0.5s; /* Combine transitions */
 }
 
-.box:hover .image{
-    transform: scale(1.06);
-    filter: drop-shadow(0 0 1em #4400fffa);
-    filter: brightness(0);
+.box:hover .image {
+  transform: scale(1.06);
+  filter: drop-shadow(0 0 1em #4400fffa);
+  filter: brightness(0);
 }
-
-
-
 
 .title {
-    font-size: 1.5rem;       /* Larger text */
-    background: linear-gradient(to right, #2563eb, #dd30f0);     
-    margin-bottom: 15px;     /* Space between text and image */
-    padding: 10px;
+  font-size: 1.5rem; /* Larger text */
+  color: aliceblue;
+  background: linear-gradient(to right, #2563eb, #dd30f0);
+  margin-bottom: 15px; /* Space between text and image */
+  padding: 10px;
 }
-
-
 
 .pythonlogo {
-    position:absolute; /* Position the Python logo over the image */
-    padding: 10px;
-    opacity: 0; /* Initially invisible */
-    transition: opacity 0.1s; /* Smooth transition */
-    z-index: 2;
+  position: absolute; /* Position the Python logo over the image */
+  padding: 10px;
+  opacity: 0; /* Initially invisible */
+  transition: opacity 0.1s; /* Smooth transition */
+  z-index: 2;
+  color: aliceblue;
 }
-
 
 .box:hover .pythonlogo {
-    opacity: 1;
-    filter: brightness(1);
-    z-index: 1
-
+  opacity: 1;
+  filter: brightness(1);
+  z-index: 1;
 }
-    
 
 .image {
-    width: 100%;             
-    height: auto;            
-    border-radius: 8px;      
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* Flexbox container for arranging project boxes side by side */
 .boxflex {
-    display: flex;           
-    flex-wrap: wrap;         
-    justify-content: space-around; 
-    gap: 15px;               
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
 }
