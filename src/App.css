@@ -364,6 +364,25 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.cur8 {
+  height: 11em;
+  will-change: filter;
+  padding: 40px;
+  transition: filter 300ms;
+  border-radius: 50%;
+  transition: transform 0.5s, filter 0.5s;
+  z-index: 102;
+}
+
+.cur8:hover {
+  transform: scale(1.5);
+  filter: drop-shadow(0 0 2em #00a68d);
+}
+
+.cur8.react:hover {
+  filter: drop-shadow(0 0 2em #00a68d);
+}
+
 @keyframes moveLeft {
   0% {
     transform: translateX(600%);
