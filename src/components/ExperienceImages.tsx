@@ -9,7 +9,7 @@ import Buildathon from "../assets/experienceassets/Buildathon.jpg";
 import MTF from "../assets/experienceassets/MTF.jpg";
 import SoukAITeam from "../assets/experienceassets/SoukAITeam.jpg";
 import RedwoodFounders from "../assets/experienceassets/RedwoodFounders.jpg";
-import Cur8 from "../assets/experienceassets/Cur8Capital.png";
+import Cur8 from "../assets/experienceassets/Cur8Capital.jpg";
 import "./Experience.css";
 
 function ExperienceImages() {
