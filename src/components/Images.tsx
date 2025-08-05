@@ -9,6 +9,7 @@ import tcsLogo from "../assets/tcs.jpg";
 import cityLogo from "../assets/city.png";
 import coinruleLogo from "../assets/coinrule.png";
 import cur8Logo from "../assets/Cur8.png";
+import montageaiLogo from "../assets/montageai.jpg";
 
 function Images() {
   return (
@@ -96,6 +97,14 @@ function Images() {
           src={cur8Logo}
           className="cur8 scroll-content scroll-container"
           alt="cur8capital logo"
+        />
+      </a>
+
+      <a href="https://montageai.framer.website/" target="_blank">
+        <img
+          src={montageaiLogo}
+          className="encode scroll-content scroll-container"
+          alt="montageai logo"
         />
       </a>
     </div>

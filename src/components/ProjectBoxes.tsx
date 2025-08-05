@@ -3,11 +3,11 @@ import KNearest from "../assets/projectassets/K-Nearest.png";
 import Fractal from "../assets/projectassets/FractalPlotting.png";
 import DecisionTree from "../assets/projectassets/DecisionTree.png";
 import ShoppingList from "../assets/projectassets/ShoppingList.png";
-import WeatherApp from "../assets/projectassets/WeatherApp.png";
 import SwiftdIn from "../assets/projectassets/SwiftdIn.png";
 import PrayerApp from "../assets/projectassets/PrayerApp.png";
 import Portfolio from "../assets/projectassets/PortfolioProjectImage.png";
 import UniStreetFighter from "../assets/projectassets/UniStreetFighter.png";
+import MontageAI from "../assets/projectassets/MontageAI.png";
 
 function ProjectBoxes() {
   return (
@@ -83,13 +83,19 @@ function ProjectBoxes() {
         </div>
 
         <div className="box">
-          <h1 className="title">Weather Web App</h1>
-          <img src={WeatherApp} className="image" alt="weatherapp" />
+          <h1 className="title">This website :)</h1>
+          <img src={Portfolio} className="image" alt="portfolioimage" />
         </div>
 
         <div className="box">
-          <h1 className="title">This website :)</h1>
-          <img src={Portfolio} className="image" alt="portfolioimage" />
+          <h1 className="title">Montage AI</h1>
+          <div className="pythonlogo">
+            <p>
+              A video editing software<br></br> with AI integration to automate
+              tedious tasks
+            </p>
+          </div>
+          <img src={MontageAI} className="image" alt="montageai" />
         </div>
       </div>
     </div>

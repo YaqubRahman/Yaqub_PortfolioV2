@@ -29,15 +29,15 @@ function Home() {
       <Images />
       <div className="card">
         <div className="hero-title ">
-          <p>Hi I am a first year Computer Science undergraduate!</p>
+          <p>Hi, I am a second year Computer Science undergraduate</p>
         </div>
 
         <div className="herowords-title herotextcontainer">
           <p>
-            <br></br>"Disciplined"<br></br>
+            <br></br>"Precise"<br></br>
             <br></br>"Hardworking"<br></br>
-            <br></br>"Composed"<br></br>
-            <br></br>"Determined"
+            <br></br>"Adaptable"<br></br>
+            <br></br>"Resilient"
           </p>
 
           <div className="hero-image herotextcontent ">
