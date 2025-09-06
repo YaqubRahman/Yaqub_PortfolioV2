@@ -83,13 +83,13 @@ function ExperienceImages() {
   return (
     <div>
       <div className="experience-containers">
-        {experiences.map((exp, index) => (
+        {experiences.map((exp) => (
           <div key={exp.title} className="experience-containers">
             <div className="experience-cards">
               <div className="experience-title">{exp.title}</div>
               <div className="experience-date">{exp.date}</div>
               {exp.images.length > 0 &&
-                exp.images.map((image, imgIndex) => (
+                exp.images.map((image) => (
                   <img
                     src={image}
                     className="encodeexperience"
