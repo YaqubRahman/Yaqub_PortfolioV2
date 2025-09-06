@@ -11,6 +11,7 @@ import SoukAITeam from "../assets/experienceassets/SoukAITeam.jpg";
 import RedwoodFounders from "../assets/experienceassets/RedwoodFounders.jpg";
 import RedwoodFounders2 from "../assets/experienceassets/RedwoodFounders2.jpg";
 import Cur8 from "../assets/experienceassets/Cur8Capital.jpg";
+import MontageAILogo from "../assets/montageai.jpg";
 import GooglePitch1 from "../assets/experienceassets/GooglePitch1.jpg";
 import GooglePitch2 from "../assets/experienceassets/GooglePitch2.jpg";
 import "./Experience.css";
@@ -24,16 +25,16 @@ const experiences = [
   {
     title: "Montage AI Co-Founder | Engineer",
     date: "June 2025 - Present",
-    images: [],
+    images: [MontageAILogo],
   },
   {
     title: "Redwood Founders Accelerator Programme",
-    date: "June 2025",
+    date: "June - August 2025",
     images: [RedwoodFounders, RedwoodFounders2],
   },
   {
     title: "Cur8 Capital SWE Internship",
-    date: "June-July 2025",
+    date: "June - July 2025",
     images: [Cur8],
   },
   { title: "Muslim Tech Fest 2025", date: "June 2025", images: [MTF] },
@@ -58,7 +59,7 @@ const experiences = [
   { title: "Encode Hackathon/Conference", date: "Oct 2024", images: [Encode] },
   {
     title: "Souk AI Startup Software Engineer",
-    date: "Oct 2024-Present",
+    date: "Oct 2024 - Present",
     images: [SoukAITeam],
   },
   { title: "AWS Immersion Day", date: "Oct 2024", images: [Awsevent] },
@@ -71,10 +72,10 @@ const experiences = [
   { title: "CCF Staff Sergeant", date: "2019-2024", images: [CCF] },
   {
     title: "Pinner High School Head Boy",
-    date: "2023-2024",
+    date: "2023 - 2024",
     images: [Headstudent],
   },
-  { title: "Scouts Leader", date: "2022-Present", images: [] },
+  { title: "Scouts Leader", date: "2022 - Present", images: [] },
   { title: "TCS Cybersecurity Work Experience", date: "June 2023", images: [] },
   { title: "DSTL Work Experience", date: "Feb 2021", images: [] },
 ];
