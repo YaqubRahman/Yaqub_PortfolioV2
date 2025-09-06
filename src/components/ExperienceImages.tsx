@@ -9,179 +9,96 @@ import Buildathon from "../assets/experienceassets/Buildathon.jpg";
 import MTF from "../assets/experienceassets/MTF.jpg";
 import SoukAITeam from "../assets/experienceassets/SoukAITeam.jpg";
 import RedwoodFounders from "../assets/experienceassets/RedwoodFounders.jpg";
+import RedwoodFounders2 from "../assets/experienceassets/RedwoodFounders2.jpg";
 import Cur8 from "../assets/experienceassets/Cur8Capital.jpg";
+import GooglePitch1 from "../assets/experienceassets/GooglePitch1.jpg";
+import GooglePitch2 from "../assets/experienceassets/GooglePitch2.jpg";
 import "./Experience.css";
+
+const experiences = [
+  {
+    title: "Pitching Montage AI at Google HQ London",
+    date: "September 2025",
+    images: [GooglePitch1, GooglePitch2],
+  },
+  {
+    title: "Montage AI Co-Founder | Engineer",
+    date: "June 2025 - Present",
+    images: [],
+  },
+  {
+    title: "Redwood Founders Accelerator Programme",
+    date: "June 2025",
+    images: [RedwoodFounders, RedwoodFounders2],
+  },
+  {
+    title: "Cur8 Capital SWE Internship",
+    date: "June-July 2025",
+    images: [Cur8],
+  },
+  { title: "Muslim Tech Fest 2025", date: "June 2025", images: [MTF] },
+  {
+    title: "3rd Place Cambridge Joint ISoc Buildathon",
+    date: "Feb 2025",
+    images: [Buildathon],
+    medal: "bronze",
+  },
+  {
+    title: "2nd Place KCL Enactus Hackathon",
+    date: "Feb 2025",
+    images: [KCL],
+    medal: "silver",
+  },
+  {
+    title: "2nd Place Robotics End Of Line Competition",
+    date: "Sep - Dec 2024",
+    images: [Robotics],
+    medal: "silver",
+  },
+  { title: "Encode Hackathon/Conference", date: "Oct 2024", images: [Encode] },
+  {
+    title: "Souk AI Startup Software Engineer",
+    date: "Oct 2024-Present",
+    images: [SoukAITeam],
+  },
+  { title: "AWS Immersion Day", date: "Oct 2024", images: [Awsevent] },
+  {
+    title: "1st Place Imperial Hackathon Winner Summer '24",
+    date: "June 2024",
+    images: [Imperial],
+    medal: "gold",
+  },
+  { title: "CCF Staff Sergeant", date: "2019-2024", images: [CCF] },
+  {
+    title: "Pinner High School Head Boy",
+    date: "2023-2024",
+    images: [Headstudent],
+  },
+  { title: "Scouts Leader", date: "2022-Present", images: [] },
+  { title: "TCS Cybersecurity Work Experience", date: "June 2023", images: [] },
+  { title: "DSTL Work Experience", date: "Feb 2021", images: [] },
+];
 
 function ExperienceImages() {
   return (
     <div>
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>Redwood Founders Accelerator Programme</p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>June 2025</p>
-        </div>
-      </div>
-
-      <img src={RedwoodFounders} className="encodeexperience" alt="redwood" />
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p> Cur8 Capital SWE Internship</p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>June-July 2025</p>
-        </div>
-      </div>
-
-      <img src={Cur8} className="encodeexperience" alt="cur8" />
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>Muslim Tech Fest 2025</p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>June 2025</p>
-        </div>
-      </div>
-
-      <img src={MTF} className="encodeexperience" alt="mtf" />
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>
-            <span className="bronze-text">3rd Place</span> Cambridge Joint ISoc
-            Buildathon
-          </p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>Feb 2025</p>
-        </div>
-      </div>
-
-      <img src={Buildathon} className="encodeexperience" alt="buildathon" />
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>
-            <span className="silver-text">2nd Place</span> KCL Enactus Hackathon
-          </p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>Feb 2025</p>
-        </div>
-      </div>
-
-      <img src={KCL} className="encodeexperience" alt="kcl" />
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>
-            <span className="silver-text">2nd Place</span> Robotics End Of Line
-            Competition
-          </p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>Sep - Dec 2024</p>
-        </div>
-      </div>
-
-      <img src={Robotics} className="encodeexperience" alt="robotics" />
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>Encode Hackathon/Conference</p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>Oct 2024</p>
-        </div>
-      </div>
-
-      <img src={Encode} className="encodeexperience" alt="encodeexperience" />
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>Souk AI Startup Software Engineer</p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>Oct 2024-Present</p>
-        </div>
-      </div>
-      <img src={SoukAITeam} className="encodeexperience" alt="soukai" />
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>AWS Immersion Day</p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>Oct 2024</p>
-        </div>
-      </div>
-
-      <img src={Awsevent} className="encodeexperience" alt="awsevent" />
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>
-            <span className="gold-text">1st Place</span> Imperial Hackathon
-            Winner Summer '24
-          </p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>June 2024</p>
-        </div>
-      </div>
-
-      <img src={Imperial} className="encodeexperience" alt="imperial" />
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>CCF Staff Sergeant</p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>2019-2024</p>
-        </div>
-      </div>
-
-      <img src={CCF} className="encodeexperience" alt="ccf" />
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>Pinner High School Head Boy</p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>2023-2024</p>
-        </div>
-      </div>
-
-      <img src={Headstudent} className="encodeexperience" alt="headstudent" />
-
-      <div className="card">
-        <div className="experiencehero-title ">
-          <p>Scouts Leader</p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>2022-Present</p>
-        </div>
-      </div>
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>TCS Cybersecurity Work Experience</p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>June 2023</p>
-        </div>
-      </div>
-
-      <div className="card">
-        <div className="experiencehero-title">
-          <p>DSTL Work Experience</p>
-        </div>
-        <div className="experiencehero-subtitle">
-          <p>Feb 2021</p>
-        </div>
+      <div className="experience-containers">
+        {experiences.map((exp, index) => (
+          <div key={exp.title} className="experience-containers">
+            <div className="experience-cards">
+              <div className="experience-title">{exp.title}</div>
+              <div className="experience-date">{exp.date}</div>
+              {exp.images.length > 0 &&
+                exp.images.map((image, imgIndex) => (
+                  <img
+                    src={image}
+                    className="encodeexperience"
+                    alt="experience"
+                  />
+                ))}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
