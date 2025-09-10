@@ -93,6 +93,7 @@ function ExperienceImages() {
                 exp.images.map((image) => (
                   <img
                     src={image}
+                    loading="lazy"
                     className="encodeexperience"
                     alt="experience"
                   />
