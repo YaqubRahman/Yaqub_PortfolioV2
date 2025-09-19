@@ -12,6 +12,7 @@ function Home() {
           <h1>Yaqub Rahman</h1>
           <div className="sub-title">
             <h2>Software Engineer at SoukAI</h2>
+            <h2>2nd Year CS Student</h2>
           </div>
 
           <a href="https://souk-ai.co.uk/" target="_blank">

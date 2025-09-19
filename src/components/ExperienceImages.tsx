@@ -10,8 +10,10 @@ import MTF from "../assets/experienceassets/MTF.jpg";
 import SoukAITeam from "../assets/experienceassets/SoukAITeam.jpg";
 import RedwoodFounders from "../assets/experienceassets/RedwoodFounders.jpg";
 import RedwoodFounders2 from "../assets/experienceassets/RedwoodFounders2.jpg";
+import RedwoodFounders3 from "../assets/experienceassets/RedwoodFounders3.jpg";
 import Cur8 from "../assets/experienceassets/Cur8Capital.jpg";
-import MontageAILogo from "../assets/montageai.jpg";
+import MontageAI1 from "../assets/experienceassets/MontageAI1.jpg";
+import MontageAI2 from "../assets/experienceassets/MontageAI3.jpg";
 import GooglePitch1 from "../assets/experienceassets/GooglePitch1.jpg";
 import GooglePitch2 from "../assets/experienceassets/GooglePitch2.jpg";
 import "./Experience.css";
@@ -25,12 +27,12 @@ const experiences = [
   {
     title: "Montage AI Co-Founder | Engineer",
     date: "June 2025 - Present",
-    images: [MontageAILogo],
+    images: [MontageAI2, MontageAI1],
   },
   {
     title: "Redwood Founders Accelerator Programme",
     date: "June - August 2025",
-    images: [RedwoodFounders, RedwoodFounders2],
+    images: [RedwoodFounders, RedwoodFounders2, RedwoodFounders3],
   },
   {
     title: "Cur8 Capital SWE Internship",
