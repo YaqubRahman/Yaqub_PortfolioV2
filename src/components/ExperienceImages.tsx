@@ -16,9 +16,15 @@ import MontageAI1 from "../assets/experienceassets/MontageAI1.jpg";
 import MontageAI2 from "../assets/experienceassets/MontageAI3.jpg";
 import GooglePitch1 from "../assets/experienceassets/GooglePitch1.jpg";
 import GooglePitch2 from "../assets/experienceassets/GooglePitch2.jpg";
+import VicePresident from "../assets/experienceassets/VicePresident.jpg";
 import "./Experience.css";
 
 const experiences = [
+  {
+    title: "Vice President of the Computer Science Society",
+    date: "September 2025 - Present",
+    images: [VicePresident],
+  },
   {
     title: "Pitching Montage AI at Google HQ London",
     date: "September 2025",
