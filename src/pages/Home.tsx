@@ -1,5 +1,5 @@
 import Images from "../components/Images";
-import yaqub from "../assets/yaqubpfp.jpg";
+import yaqub2 from "../assets/yaqubpfp3.png";
 import biannual from "../assets/biannual.jpeg";
 import "../App.css";
 import soukaiLogo from "../assets/soukAI pfp2.png";
@@ -24,7 +24,7 @@ function Home() {
           </a>
         </div>
         <div className="content">
-          <img src={yaqub} className="yaqub" alt="yaqub pfp" />
+          <img src={yaqub2} className="yaqub" alt="yaqub pfp" />
         </div>
       </div>
       <Images />
