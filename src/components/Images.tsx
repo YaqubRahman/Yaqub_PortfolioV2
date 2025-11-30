@@ -18,35 +18,35 @@ function Images() {
         <img
           src={python}
           className="stemmlogo scroll-content scroll-container"
-          alt="stemm pfp"
+          alt="python pfp"
         />
       </a>
       <a target="_blank">
         <img
           src={java}
           className="aws scroll-content scroll-container"
-          alt="aws logo"
+          alt="java logo"
         />
       </a>
       <a target="_blank">
         <img
           src={typescript}
           className="dst scroll-content scroll-container"
-          alt="dst logo"
+          alt="typescript logo"
         />
       </a>
       <a target="_blank">
         <img
           src={cpp}
           className="encode scroll-content scroll-container"
-          alt="encode logo"
+          alt="cpp logo"
         />
       </a>
       <a target="_blank">
         <img
           src={docker}
           className="tcs scroll-content scroll-container"
-          alt="tcs logo"
+          alt="docker logo"
         />
       </a>
       <a href="https://www.scouts.org.uk/" target="_blank">
