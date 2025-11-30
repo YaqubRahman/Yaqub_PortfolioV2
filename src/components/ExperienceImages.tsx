@@ -67,7 +67,7 @@ const experiences = [
   { title: "Encode Hackathon/Conference", date: "Oct 2024", images: [Encode] },
   {
     title: "Souk AI Startup Software Engineer",
-    date: "Oct 2024 - Present",
+    date: "Oct 2024 - Oct 2025",
     images: [SoukAITeam],
   },
   { title: "AWS Immersion Day", date: "Oct 2024", images: [Awsevent] },

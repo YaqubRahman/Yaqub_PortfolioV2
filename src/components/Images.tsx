@@ -1,48 +1,52 @@
-import stemmLogo from "../assets/stemm.jpg";
-import awsLogo from "../assets/aws.jpeg";
-import dstLogo from "../assets/dst.png";
-import encodeLogo from "../assets/encode_club_logo.jpg";
+import python from "../assets/icons/python.png";
+import java from "../assets/icons/java.png";
+import typescript from "../assets/icons/typescript.png";
+import cpp from "../assets/icons/cpp.png";
 import scoutsLogo from "../assets/scouts.png";
 import ccfLogo from "../assets/ccf.jpg";
 import phsLogo from "../assets/PHS.jpg";
-import tcsLogo from "../assets/tcs.jpg";
+import docker from "../assets/icons/docker.png";
 import cityLogo from "../assets/city.png";
 import coinruleLogo from "../assets/coinrule.png";
 import cur8Logo from "../assets/Cur8.png";
-import montageaiLogo from "../assets/montageai.jpg";
+import montageaiLogo from "../assets/montageaibig.png";
 
 function Images() {
   return (
     <div>
-      <a href="https://stemmuslims.org/" target="_blank">
+      <a target="_blank">
         <img
-          src={stemmLogo}
+          src={python}
           className="stemmlogo scroll-content scroll-container"
           alt="stemm pfp"
         />
       </a>
-      <a href="https://aws.amazon.com/" target="_blank">
+      <a target="_blank">
         <img
-          src={awsLogo}
+          src={java}
           className="aws scroll-content scroll-container"
           alt="aws logo"
         />
       </a>
-      <a
-        href="https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory"
-        target="_blank"
-      >
+      <a target="_blank">
         <img
-          src={dstLogo}
+          src={typescript}
           className="dst scroll-content scroll-container"
           alt="dst logo"
         />
       </a>
-      <a href="https://www.encode.club/" target="_blank">
+      <a target="_blank">
         <img
-          src={encodeLogo}
+          src={cpp}
           className="encode scroll-content scroll-container"
           alt="encode logo"
+        />
+      </a>
+      <a target="_blank">
+        <img
+          src={docker}
+          className="tcs scroll-content scroll-container"
+          alt="tcs logo"
         />
       </a>
       <a href="https://www.scouts.org.uk/" target="_blank">
@@ -64,16 +68,6 @@ function Images() {
           src={phsLogo}
           className="phs scroll-content scroll-container"
           alt="phs logo"
-        />
-      </a>
-      <a
-        href="https://www.tcs.com/what-we-do/services/cybersecurity"
-        target="_blank"
-      >
-        <img
-          src={tcsLogo}
-          className="tcs scroll-content scroll-container"
-          alt="tcs logo"
         />
       </a>
       <a href="https://www.city.ac.uk/" target="_blank">

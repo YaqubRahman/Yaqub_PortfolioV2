@@ -2,7 +2,7 @@ import Images from "../components/Images";
 import yaqub2 from "../assets/yaqubpfp3.png";
 import biannual from "../assets/biannual.jpeg";
 import "../App.css";
-import soukaiLogo from "../assets/soukAI pfp2.png";
+import montageailogo from "../assets/montageaibig.png";
 
 function Home() {
   return (
@@ -11,13 +11,13 @@ function Home() {
         <div className="typewriter">
           <h1>Yaqub Rahman</h1>
           <div className="sub-title">
-            <h2>Software Engineer at SoukAI</h2>
+            <h2>Building Montage AI</h2>
             <h2>2nd Year CS Student</h2>
           </div>
 
-          <a href="https://souk-ai.co.uk/" target="_blank">
+          <a href="https://montageai.co.uk" target="_blank">
             <img
-              src={soukaiLogo}
+              src={montageailogo}
               className="soukai scroll-content scroll-container"
               alt="soukai logo"
             />
