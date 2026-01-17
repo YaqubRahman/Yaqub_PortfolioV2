@@ -1,6 +1,6 @@
 import Images from "../components/Images";
 import yaqub2 from "../assets/yaqubpfp3.png";
-import biannual from "../assets/biannual.jpeg";
+import biannual from "../assets/biannual2.jpg";
 import "../App.css";
 import montageailogo from "../assets/montageaibig.png";
 
