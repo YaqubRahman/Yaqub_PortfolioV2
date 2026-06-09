@@ -94,7 +94,7 @@ function Images() {
         />
       </a>
 
-      <a href="https://montageai.framer.website/" target="_blank">
+      <a href="https://montageai.co.uk" target="_blank">
         <img
           src={montageaiLogo}
           className="encode scroll-content scroll-container"

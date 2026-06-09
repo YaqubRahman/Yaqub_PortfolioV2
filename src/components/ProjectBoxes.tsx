@@ -7,14 +7,13 @@ import Portfolio from "../assets/projectassets/PortfolioProjectImage2.png";
 import UniStreetFighter from "../assets/projectassets/UniStreetFighter.png";
 import MontageAI from "../assets/projectassets/MontageAI.png";
 import F1Image from "../assets/projectassets/F1Image.jpg";
+import Compiler from "../assets/projectassets/CompilerImage.jpg";
+import TempSensor from "../assets/projectassets/TempSensor.png";
 
 const projects = [
   {
     title: "Montage AI",
-    description: `A video editing software
-                  with AI intetegration to
-                  automate tedious tasks of
-                  video editing.`,
+    description: `An AI video editing platform. Users can cut videos with natural language prompts, auto-generate subtitles, colour grade from a reference image, and create reels. Built with React, FastAPI, Whisper, Gemini, FFmpeg and Cloudflare R2`,
     image: MontageAI,
   },
   {
@@ -22,7 +21,7 @@ const projects = [
     description: `A machine learning model
                   which predicts the best
                   strategy for a Formula 1 race.
-                  Uses data from FastF1 library.`,
+                  Built with Python, Scikit-learn, Flask and React.`,
     image: F1Image,
   },
   {
@@ -38,11 +37,21 @@ const projects = [
     image: Portfolio,
   },
   {
+    title: "LPL Compiler",
+    description: `Compiler implementation for the LPL26 language. Includes a parser, AST, symbol table, and code generator`,
+    image: Compiler,
+  },
+  {
     title: "SwiftdIn Full Stack App",
     description: `A full stack web application which uses React, JavaScript and
               MongoDB. SwiftdIn is a LinedIn
               like clone.`,
     image: SwiftdIn,
+  },
+  {
+    title: "Computer Hardware Temp Monitor",
+    description: `A Windows desktop application built in C# that monitors real-time hardware temperatures including CPU, GPU and drive. Integrated LibreHardwareMonitor as a library dependency and investigated an unsupported AMD Ryzen AI sensor bug by tracing through open source kernel driver code`,
+    image: TempSensor,
   },
   {
     title: "Prayer App",
