@@ -1,24 +1,22 @@
-import Images from '../components/ExperienceImages'
-import '../App.css'
-import '../components/Projects.css'
-
+import Images from "../components/ExperienceImages";
+import "../App.css";
+import "../components/Projects.css";
 
 function Experience() {
-
   return (
     <>
-    <div className="container">
-      <h1><br></br>Experience<br></br><br></br> </h1>
+      <div className="container">
+        <h1>
+          <br></br>Journey<br></br>
+          <br></br>{" "}
+        </h1>
       </div>
-      <Images/>
-        <div className='hero-subtitle'>
+      <Images />
+      <div className="hero-subtitle">
         <p></p>
-        </div>
-
+      </div>
     </>
-  )
+  );
 }
 
-export default Experience
-
-
+export default Experience;

@@ -16,9 +16,27 @@ import MontageAI1 from "../assets/experienceassets/MontageAI1.jpg";
 import MontageAI2 from "../assets/experienceassets/MontageAI3.jpg";
 import GooglePitch1 from "../assets/experienceassets/GooglePitch1.jpg";
 import GooglePitch2 from "../assets/experienceassets/GooglePitch2.jpg";
+import SharedFuturesBuildathon from "../assets/experienceassets/shared-futures-buildathon.png";
+import ExpediaInsight from "../assets/experienceassets/ExpediaInsight.jpg";
+import Figma from "../assets/experienceassets/FigmaEvent.jpg";
 import "./Experience.css";
 
 const experiences = [
+  {
+    title: "Shared Futures Buildathon Volunteer/Builder",
+    date: "June 2026",
+    images: [SharedFuturesBuildathon],
+  },
+  {
+    title: "Expedia - Internship Launch Event (Invite‑Only Event)",
+    date: "October 2025",
+    images: [ExpediaInsight],
+  },
+  {
+    title: "Figma Lightning Talks + Student Social (Invite‑Only Event)",
+    date: "October 2025",
+    images: [Figma],
+  },
   {
     title: "Pitching Montage AI at Google HQ London",
     date: "September 2025",
@@ -77,7 +95,7 @@ const experiences = [
     date: "2023 - 2024",
     images: [Headstudent],
   },
-  { title: "Scouts Leader", date: "2022 - Present", images: [] },
+  { title: "Scouts Leader", date: "2022 - 2025", images: [] },
   { title: "TCS Cybersecurity Work Experience", date: "June 2023", images: [] },
   { title: "DSTL Work Experience", date: "Feb 2021", images: [] },
 ];
