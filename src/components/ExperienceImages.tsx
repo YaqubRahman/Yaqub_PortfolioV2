@@ -18,10 +18,15 @@ import GooglePitch1 from "../assets/experienceassets/GooglePitch1.jpg";
 import GooglePitch2 from "../assets/experienceassets/GooglePitch2.jpg";
 import SharedFuturesBuildathon from "../assets/experienceassets/shared-futures-buildathon.png";
 import ExpediaInsight from "../assets/experienceassets/ExpediaInsight.jpg";
-import Figma from "../assets/experienceassets/FigmaEvent.jpg";
 import "./Experience.css";
+import Expedia from "../assets/experienceassets/Expedia.jpg";
 
 const experiences = [
+  {
+    title: "Expedia SDE Internship",
+    date: "June - August 2026",
+    images: [Expedia],
+  },
   {
     title: "Shared Futures Buildathon Volunteer/Builder",
     date: "June 2026",
@@ -31,11 +36,6 @@ const experiences = [
     title: "Expedia - Internship Launch Event (Invite‑Only Event)",
     date: "October 2025",
     images: [ExpediaInsight],
-  },
-  {
-    title: "Figma Lightning Talks + Student Social (Invite‑Only Event)",
-    date: "October 2025",
-    images: [Figma],
   },
   {
     title: "Pitching Montage AI at Google HQ London",

@@ -2,7 +2,7 @@ import Images from "../components/Images";
 import yaqub2 from "../assets/yaqubpfp3.png";
 import biannual from "../assets/biannual2.jpg";
 import "../App.css";
-import expedialogo from "../assets/expedia.png";
+import expedialogo from "../assets/expedia.jpg";
 
 function Home() {
   return (
